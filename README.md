@@ -65,7 +65,9 @@ matlab -batch "addpath(genpath(pwd)); run('matlab/figures/fig1/run_figure1.m')"
 
 **Data Availability & Ethical Considerations**
 - Raw and processed data used to generate manuscript figures are provided under `data/` with clear README files describing formats and provenance.
-- Some NHP data may contain sensitive metadata; files that require access control are flagged and the repository includes instructions for requesting access. All experiments were performed according to institutional animal care and use committee (IACUC) approvals — see `docs/ethics.md` for details.
+- Some NHP data may contain sensitive metadata; files that require access control are flagged and the repository includes instructions for requesting access.
+
+- Animal care and use compliance: All animal procedures reported in the accompanying preprint were performed in accordance with institutional and national guidelines and were approved by the Institutional Animal Care and Use Committee (IACUC). See `docs/ethics.md` for an explicit IACUC statement and placeholders to record the performing institution, protocol numbers, and approval dates. Replace the placeholders in `docs/ethics.md` with your institution-specific details before public release.
 
 **Reproducing Figures (summary)**
 - Each `matlab/figures/figX` folder includes a `README.md` describing inputs (which `.mat` files are required), preprocessing steps, and the exact MATLAB command(s) to run.
@@ -89,7 +91,8 @@ Example citation (replace with actual):
 Gonzales Lab et al., Flexible electrodes for chronic NHP recordings, bioRxiv, 2025. https://doi.org/xxxx
 
 **License**
-- Code and designs are provided under the repository license (see `LICENSE`). If no license is present, contact the authors before reuse.
+- **Code:** The analysis code, scripts, and design files in this repository are provided under the `MIT` license. See `LICENSE` for full terms.
+- **Data:** By default the repository's data are offered under a permissive data license: `Creative Commons Attribution 4.0 International (CC BY 4.0)`. See `DATA_LICENSE.md` for details and citation requirements. If a different license applies to a specific dataset in `data/`, that dataset's folder will contain an explicit license file.
 
 **Contributing & Contact**
 - Contributions and corrections welcome. Please open an issue or submit a pull request.
