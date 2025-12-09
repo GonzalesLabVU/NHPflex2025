@@ -34,8 +34,27 @@ run('run_figure1.m')
 matlab -batch "addpath(genpath(pwd)); run('matlab/figures/fig1/run_figure1.m')"
 ```
 
-- MATLAB requirements: scripts were developed and tested with MATLAB R2022a (or later). Required toolboxes: Signal Processing Toolbox, Statistics and Machine Learning Toolbox, and Image Processing Toolbox (where used). If you do not have MATLAB, some scripts can be compiled with MATLAB Compiler or run where provided as standalone using the MATLAB Runtime (see individual figure `README.md` files for details).
+-- MATLAB requirements: scripts were developed and tested with **MATLAB R2022a**. Required MathWorks toolboxes used in the analyses include:
+	- Signal Processing Toolbox
+	- Statistics and Machine Learning Toolbox
+	- Image Processing Toolbox (where used)
 
+	In addition the analysis uses two community toolboxes:
+	- `matlabnpy` — a lightweight toolbox to read/write NumPy `.npy`/`.npz` files directly from MATLAB. Install by cloning and adding to your MATLAB path; for example:
+
+	```matlab
+	git clone https://github.com/kwikteam/matlabnpy.git external/matlabnpy
+	addpath(genpath(fullfile(pwd,'external','matlabnpy')))
+	```
+
+	- Open Ephys Analysis Toolbox — used to load and preprocess Open Ephys recordings. Install by cloning the repository and adding it to the MATLAB path; for example:
+
+	```matlab
+	git clone https://github.com/open-ephys/analysis-tools.git external/open-ephys-analysis
+	addpath(genpath(fullfile(pwd,'external','open-ephys-analysis')))
+	```
+
+	See each figure's `README.md` for exact version notes and any additional third-party functions. If you do not have MATLAB, some scripts can be compiled with MATLAB Compiler or run as standalone using the MATLAB Runtime (see individual figure `README.md` files for details).
 
 **Probe Fabrication & PCB**
 - The `probes/` directory contains CAD, mask layouts, and fabrication notes. The `pcb/` directory contains the PCB schematics, KiCad project files, and Gerber exports.
