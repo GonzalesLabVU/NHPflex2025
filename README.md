@@ -76,7 +76,7 @@ matlab -batch "addpath(genpath(pwd)); run('matlab/figures/fig1/run_figure1.m')"
 
 **Probe Fabrication & PCB**
 - The `probes/` directory contains CAD, mask layouts, and fabrication notes. The `pcb/` directory contains the PCB schematics, KiCad project files, and Gerber exports.
-- Fabrication process (detailed steps and external resources) are in `fabrication/README.md`. For the fabrication service used in this work, see: [Probe fabrication process & vendor link][https://www.fabublox.com/process-editor/899ce03e-38a6-4836-bd59-ae51e0551a5e].
+- Fabrication process (detailed steps and external resources) are in `fabrication/README.md`. For the fabrication service used in this work, see: [Probe fabrication process & vendor link]([https://www.fabublox.com/process-editor/899ce03e-38a6-4836-bd59-ae51e0551a5e]).
 
 **3D Designs**
 - The `3d/` folder includes STEP and STL files for the microdrive adapter used to mount flexible probes. CAD source (SolidWorks/FreeCAD) files are included where licensing permits.
