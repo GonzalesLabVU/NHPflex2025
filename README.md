@@ -29,9 +29,11 @@ run('run_figure1.m')
 ```
 
 -- MATLAB requirements: scripts were developed and tested with **MATLAB R2022a**. Required MathWorks toolboxes used in the analyses include:
-	- Signal Processing Toolbox
-	- Statistics and Machine Learning Toolbox
 
+- Signal Processing Toolbox
+	
+- Statistics and Machine Learning Toolbox
+	
 	In addition the analysis uses two community toolboxes:
 	- `matlabnpy` — a lightweight toolbox to read/write NumPy `.npy`/`.npz` files directly from MATLAB.
 
@@ -82,5 +84,5 @@ Woods et al., Stable, acute recordings in behaving non-human primates using flex
 - Contact lead author: `daniel.p.woods@vanderbilt.edu` (replace with real contact)
 
 **Acknowledgements**
-The HHMI Hanna Gray Fellowship and the Burroughs Wellcome Fund funded this work. Owen Meilander assisted with sample fabrication within the Vanderbilt Institute for Nanoscale Science and Engineering. We thank Jaela Bills and Kayla Yetman for technical help with experiments. 
+****The HHMI Hanna Gray Fellowship and the Burroughs Wellcome Fund funded this work. Owen Meilander assisted with sample fabrication within the Vanderbilt Institute for Nanoscale Science and Engineering. We thank Jaela Bills and Kayla Yetman for technical help with experiments. ****
 ---
