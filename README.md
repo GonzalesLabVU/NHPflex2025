@@ -1,6 +1,6 @@
 # NHPflex2025
 
-**Project:** Flexible electrode systems for non-human primates (NHPs)
+**Project:** Stable, acute recordings in behaving non-human primates using flexible microelectrodes 
 
 This repository accompanies a bioRxiv preprint describing the design, fabrication, and use of flexible neural probes and associated hardware for chronic recordings in non-human primates. It contains all files needed to reproduce the figures in the manuscript, design and fabrication data for probes and PCBs, 3D designs for a microdrive adapter, and the analysis code used in the study.
 
@@ -28,12 +28,6 @@ addpath(genpath(fullfile('..','..')))
 run('run_figure1.m')
 ```
 
-- Example (headless / batch from bash):
-
-```
-matlab -batch "addpath(genpath(pwd)); run('matlab/figures/fig1/run_figure1.m')"
-```
-
 -- MATLAB requirements: scripts were developed and tested with **MATLAB R2022a**. Required MathWorks toolboxes used in the analyses include:
 	- Signal Processing Toolbox
 	- Statistics and Machine Learning Toolbox
@@ -44,32 +38,12 @@ matlab -batch "addpath(genpath(pwd)); run('matlab/figures/fig1/run_figure1.m')"
 
 	- Open Ephys Analysis Toolbox — used to load and preprocess Open Ephys recordings.
 
-	Install (recommended): run the provided shell script from the repository root to clone required external toolboxes into the `external/` folder:
-
-	```bash
-	bash scripts/setup_external_toolboxes.sh
-	```
-
-	Or run the clone commands manually (shell):
-
-	```bash
-	mkdir -p external
-	git clone https://github.com/kwikteam/matlabnpy.git external/matlabnpy
-	git clone https://github.com/open-ephys/analysis-tools.git external/open-ephys-analysis
-	```
-
 	Then add the toolboxes to your MATLAB path (from MATLAB):
 
 	```matlab
 	addpath(genpath(fullfile(pwd,'external','matlabnpy')))
 	addpath(genpath(fullfile(pwd,'external','open-ephys-analysis')))
 	savepath;
-	```
-
-	Alternatively run the included MATLAB helper which will add the external toolboxes it finds to the path:
-
-	```matlab
-	run('matlab/add_external_paths.m')
 	```
 
 	See each figure's `README.md` for exact version notes and any additional third-party functions. If you do not have MATLAB, some scripts can be compiled with MATLAB Compiler or run as standalone using the MATLAB Runtime (see individual figure `README.md` files for details).
@@ -103,9 +77,6 @@ matlab -batch "addpath(genpath(pwd)); run('matlab/figures/fig1/run_figure1.m')"
 **Citation**
 When using these data or code, please cite the accompanying preprint:
 
-Author(s). Title. bioRxiv (Year). DOI/URL
-
-Example citation (replace with actual):
 Woods et al., Stable, acute recordings in behaving non-human primates using flexible microelectrodes, bioRxiv, 2026. https://doi.org/xxxx
 
 **License**
