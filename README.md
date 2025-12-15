@@ -86,7 +86,7 @@ See each figure's `README.md` for version notes and additional dependencies. If 
 ## 3D Designs
 
 - The `3d/` folder contains STEP and STL files for the microdrive adapter used to mount flexible probes.
-- Adapter is designed for the [Narishige MO-97A hydraulic micromanipulator](https://narishige.co.jp/en/products/micromanipulators/mo97a/).
+- Adapter is designed for the [Narishige MO-97A hydraulic micromanipulator]([https://narishige.co.jp/en/products/micromanipulators/mo97a/](https://products.narishige-group.com/group1/MO-97A/chronic/english.html)).
 - Fabricated using a Formlabs Form 3 with clear resin (±0.025 mm tolerance). See `3d/README.md` for specifications.
 
 ## Data Availability & Ethical Considerations
