@@ -1,0 +1,54 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary / swap / backup files
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# MATLAB
+*.asv
+*.mex*
+*.mexmaci64
+*.mexa64
+*.mexw64
+*.mexw32
+
+# Data / raw captures (often large, not tracked in git)
+/data/raw/
+data/**/raw/
+
+# Common binary/large files
+*.mat
+*.fig
+*.stl
+*.obj
+*.ply
+*.raw
+*.bin
+
+# Build/dist folders
+build/
+dist/
+
+# Logs and caches
+logs/
+.cache/

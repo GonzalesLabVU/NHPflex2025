@@ -1,0 +1,25 @@
+# Auto-detect text files and normalize where appropriate
+* text=auto
+
+# Force LF for source files typically edited in this repo
+*.m text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.txt text=auto
+
+# Mark common binary/large files to avoid diffs and CRLF normalization
+*.mat binary
+*.fig binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.wav binary
+*.mp4 binary
+*.mov binary
+*.stl binary
+*.obj binary
+
+# Ensure exported archives are treated as binary
+*.zip binary
+*.tar.gz binary
