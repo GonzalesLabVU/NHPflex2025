@@ -1,3 +1,8 @@
+*** IN PROGRESS***
+
+***FULL UPDATED REPO WILL BE AVAILABLE UPON PUBLICATION OF MANUSCRIPT***
+
+
 # NHPflex2025
 
 **Project:** Stable, acute recordings in behaving non-human primates using flexible microelectrodes 
