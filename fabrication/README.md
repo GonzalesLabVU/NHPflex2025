@@ -6,7 +6,7 @@ This folder contains links, step-by-step instructions, and vendor information fo
 
 Fabrication involves two main components:
 1. **Neural probes**: custom flexible electrodes
-2. **PCBs**: supporting electronics for signal conditioning and acquisition
+2. **PCBs**: supporting electronics for signal acquisition with Intan headstage
 
 ## Fabrication Process and Vendors
 
