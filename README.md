@@ -1,4 +1,4 @@
-# NHPflex2025
+# NHPflex2026
 
 **Project:** Repeatable, low-drift recordings in behaving non-human primates using flexible microelectrodes.
 
