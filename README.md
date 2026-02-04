@@ -1,6 +1,6 @@
 # NHPflex2025
 
-**Project:** Stable, acute recordings in behaving non-human primates using flexible microelectrodes 
+**Project:** Repeatable, low-drift recordings in behaving non-human primates using flexible microelectrodes.
 
 This repository accompanies Woods et al in describing the design, fabrication, and use of flexible neural probes and associated hardware for acute recordings in non-human primates. It contains all files needed to reproduce the figures in the manuscript, design and fabrication data for probes and PCBs, 3D designs for a microdrive adapter, and the analysis code used in the study.
 
