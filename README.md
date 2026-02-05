@@ -55,10 +55,6 @@ savepath;
 - Adapter is designed for the [Narishige MO-97A hydraulic micromanipulator]([https://narishige.co.jp/en/products/micromanipulators/mo97a/](https://products.narishige-group.com/group1/MO-97A/chronic/english.html)).
 - Fabricated using a Formlabs Form 3 with clear resin (±0.025 mm tolerance).
 
-## Ethical Considerations
-
-- **Animal care compliance:** All animal procedures were performed in accordance with institutional and national guidelines and approved by the Institutional Animal Care and Use Committee (IACUC).
-
 ## Reproducing Figures
 
 - Each `matlab/figures/figX` folder containing scripts used to generate each figure.
