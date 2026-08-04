@@ -6,7 +6,7 @@ This repository accompanies Woods et al in describing the design, fabrication, a
 
 **Repository Contents**
 - **`/data/neurons/`**: Neuron spike files.
-- **`/data/drift/`**: Drift metrics used in analyses, built off of KiloSort4 drift correction.
+- **`/data/drift/`**: Drift metrics used in analyses
 - **`/probes/`**: Probe mask files used for layout.
 - **`/pcb/`**: PCB design files and Gerbers for electronics supporting the probes.
 - **`/fabrication/`**: Link and step-by-step notes for the probe fabrication process (see `README` inside folder).
@@ -63,6 +63,27 @@ savepath;
   2. Set up external toolboxes using the steps above.
   3. Obtain required `.mat` data files from `data/`.
   4. Run `run_figureX.m`
+
+   **UPDATE AUGUST 2026**
+# Figure reproduction package
+
+This package reproduces the manuscript figures directly from `workbook_all_sheets.mat`.
+
+## Files
+
+- `run_all_figures.m`
+- `reproduce_Fig1B.m`
+- `reproduce_Fig3H.m`
+- `reproduce_Fig4.m`
+- `reproduce_Fig5.m`
+- `reproduce_FigS2.m`
+- `reproduce_FigS4.m`
+- `reproduce_FigS7.m`
+- `reproduce_FigS8.m`
+
+
+Figures are written to `output/`.
+
 
 ## License
 
