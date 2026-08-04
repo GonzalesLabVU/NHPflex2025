@@ -64,8 +64,8 @@ savepath;
   3. Obtain required `.mat` data files from `data/`.
   4. Run `run_figureX.m`
 
-   **UPDATE AUGUST 2026**
-# Figure reproduction package
+
+# Figure reproduction package - ****UPDATE AUGUST 2026****
 
 This package reproduces the manuscript figures directly from `workbook_all_sheets.mat`.
 
@@ -96,4 +96,4 @@ Figures are written to `output/`.
 
 ---
 
-*Last updated: February 2026*
+*Last updated: August 2026*
