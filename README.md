@@ -67,8 +67,6 @@ savepath;
 
 # Figure reproduction package - ****UPDATE AUGUST 2026****
 
-This package reproduces the manuscript figures directly from `workbook_all_sheets.mat`.
-
 ## Files
 
 - `run_all_figures.m`
