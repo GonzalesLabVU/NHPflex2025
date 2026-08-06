@@ -65,13 +65,12 @@ savepath;
   4. Run `run_figureX.m`
 
 
-# Figure reproduction package - ****UPDATE AUGUST 2026****
+# Reproduction package - ****UPDATE AUGUST 2026****
 
 ## Files
 
 - `run_all_figures.m`
 - `reproduce_Fig1B.m`
-- `reproduce_Fig3H.m`
 - `reproduce_Fig4.m`
 - `reproduce_Fig5.m`
 - `reproduce_FigS2.m`
